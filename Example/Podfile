@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConversationalForm_Example' do
+  pod 'ConversationalForm', :path => '../'
+
+  target 'ConversationalForm_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
