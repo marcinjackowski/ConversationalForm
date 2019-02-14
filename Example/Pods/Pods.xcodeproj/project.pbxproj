@@ -12,10 +12,37 @@
 		3DF0FE774D3898F4E827F9516BC9C58F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		4212EB1A64B16B948494ACAF607038C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8BEC832A2686FD1F346EF00868400033 /* Pods-ConversationalForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AC488BB2A0CBA068141BB00E389EB5 /* Pods-ConversationalForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB9ACCC5ED886C9E6FF9B5FDC7799C20 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA4C8E90AFF3FD4D2B969524E00115 /* ReplaceMe.swift */; };
 		B48E0F53768A25416767C0804465DAB6 /* Pods-ConversationalForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E2FAED411B089567AB0C29B61FB2C /* Pods-ConversationalForm_Example-dummy.m */; };
 		BB97FB41998520638A4F528B40578FD9 /* Pods-ConversationalForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 889E89760FB484C40647BD4C67AE0E51 /* Pods-ConversationalForm_Tests-dummy.m */; };
 		C64BB8766B9EA3459FE59894D9C22851 /* ConversationalForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B847FB4D86D5E12E4313B55A3B663A /* ConversationalForm-dummy.m */; };
+		D61287AF22157EE5002B9A31 /* QuestionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612877D22157EE5002B9A31 /* QuestionForm.swift */; };
+		D61287B022157EE6002B9A31 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612877F22157EE5002B9A31 /* UIBezierPathExtension.swift */; };
+		D61287B122157EE6002B9A31 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878022157EE5002B9A31 /* UIViewExtension.swift */; };
+		D61287B222157EE6002B9A31 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878122157EE5002B9A31 /* StringExtension.swift */; };
+		D61287B322157EE6002B9A31 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */; };
+		D61287B422157EE6002B9A31 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */; };
+		D61287B522157EE6002B9A31 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */; };
+		D61287B622157EE6002B9A31 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */; };
+		D61287B722157EE6002B9A31 /* SliderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878822157EE5002B9A31 /* SliderForm.swift */; };
+		D61287B822157EE6002B9A31 /* DatePickerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878922157EE5002B9A31 /* DatePickerForm.swift */; };
+		D61287B922157EE6002B9A31 /* InputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878A22157EE5002B9A31 /* InputForm.swift */; };
+		D61287BA22157EE6002B9A31 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878B22157EE5002B9A31 /* Question.swift */; };
+		D61287BB22157EE6002B9A31 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878D22157EE5002B9A31 /* Theme.swift */; };
+		D61287BD22157EE6002B9A31 /* SubheaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879222157EE5002B9A31 /* SubheaderLabel.swift */; };
+		D61287BE22157EE6002B9A31 /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879422157EE5002B9A31 /* ChoiceButton.swift */; };
+		D61287BF22157EE6002B9A31 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879622157EE5002B9A31 /* InputTextField.swift */; };
+		D61287C022157EE6002B9A31 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879822157EE5002B9A31 /* PickerView.swift */; };
+		D61287C122157EE6002B9A31 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879A22157EE5002B9A31 /* HeaderView.swift */; };
+		D61287C222157EE6002B9A31 /* HeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879C22157EE5002B9A31 /* HeaderLabel.swift */; };
+		D61287C322157EE6002B9A31 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612879E22157EE5002B9A31 /* SliderView.swift */; };
+		D61287C422157EE6002B9A31 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287A022157EE5002B9A31 /* RoundedButton.swift */; };
+		D61287C522157EE6002B9A31 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287A222157EE5002B9A31 /* ContainerView.swift */; };
+		D61287C622157EE6002B9A31 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287A522157EE5002B9A31 /* FormView.swift */; };
+		D61287C722157EE6002B9A31 /* SliderFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287A722157EE5002B9A31 /* SliderFormView.swift */; };
+		D61287C822157EE6002B9A31 /* DatePickerFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287A922157EE5002B9A31 /* DatePickerFormView.swift */; };
+		D61287C922157EE6002B9A31 /* InputFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287AB22157EE5002B9A31 /* InputFormView.swift */; };
+		D61287CA22157EE6002B9A31 /* ChoiceFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287AD22157EE5002B9A31 /* ChoiceFormView.swift */; };
+		D61287CB22157EE6002B9A31 /* ConversationalFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61287AE22157EE5002B9A31 /* ConversationalFormView.swift */; };
 		DFE6AF3746B2747767383FC0C3F20396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +84,6 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68BEFCE1ACEDB892815FDA24AFBF6BDD /* Pods-ConversationalForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConversationalForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		69CCDA332FDA8F56CAAB8F6B31B99852 /* Pods-ConversationalForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConversationalForm_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6BAA4C8E90AFF3FD4D2B969524E00115 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ConversationalForm/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		775B270E17FD57A932E208B31DB96FBA /* Pods-ConversationalForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConversationalForm_Example.release.xcconfig"; sourceTree = "<group>"; };
 		889E89760FB484C40647BD4C67AE0E51 /* Pods-ConversationalForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConversationalForm_Tests-dummy.m"; sourceTree = "<group>"; };
 		92046C371B51F5B9296651A7FF320DE6 /* Pods-ConversationalForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConversationalForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,6 +96,34 @@
 		B99E2FAED411B089567AB0C29B61FB2C /* Pods-ConversationalForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConversationalForm_Example-dummy.m"; sourceTree = "<group>"; };
 		C20781EABE7AAB977D9AABD4E6371461 /* Pods_ConversationalForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConversationalForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C242B6B299EB058A0914D842A489A894 /* Pods-ConversationalForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConversationalForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D612877D22157EE5002B9A31 /* QuestionForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionForm.swift; sourceTree = "<group>"; };
+		D612877F22157EE5002B9A31 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		D612878022157EE5002B9A31 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		D612878122157EE5002B9A31 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		D612878822157EE5002B9A31 /* SliderForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderForm.swift; sourceTree = "<group>"; };
+		D612878922157EE5002B9A31 /* DatePickerForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerForm.swift; sourceTree = "<group>"; };
+		D612878A22157EE5002B9A31 /* InputForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputForm.swift; sourceTree = "<group>"; };
+		D612878B22157EE5002B9A31 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D612878D22157EE5002B9A31 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D612879222157EE5002B9A31 /* SubheaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubheaderLabel.swift; sourceTree = "<group>"; };
+		D612879422157EE5002B9A31 /* ChoiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
+		D612879622157EE5002B9A31 /* InputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		D612879822157EE5002B9A31 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		D612879A22157EE5002B9A31 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D612879C22157EE5002B9A31 /* HeaderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderLabel.swift; sourceTree = "<group>"; };
+		D612879E22157EE5002B9A31 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		D61287A022157EE5002B9A31 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		D61287A222157EE5002B9A31 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		D61287A522157EE5002B9A31 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		D61287A722157EE5002B9A31 /* SliderFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderFormView.swift; sourceTree = "<group>"; };
+		D61287A922157EE5002B9A31 /* DatePickerFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerFormView.swift; sourceTree = "<group>"; };
+		D61287AB22157EE5002B9A31 /* InputFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFormView.swift; sourceTree = "<group>"; };
+		D61287AD22157EE5002B9A31 /* ChoiceFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceFormView.swift; sourceTree = "<group>"; };
+		D61287AE22157EE5002B9A31 /* ConversationalFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationalFormView.swift; path = ConversationalForm/ConversationalFormView.swift; sourceTree = "<group>"; };
 		E1998709042E31374B9D948DB3C535C3 /* ConversationalForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ConversationalForm.podspec; sourceTree = "<group>"; };
 		F328EE5A7E2CA4B652D215A472DD80C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,10 +270,212 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D612877C22157EE5002B9A31 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D612877D22157EE5002B9A31 /* QuestionForm.swift */,
+			);
+			name = Enums;
+			path = ConversationalForm/Enums;
+			sourceTree = "<group>";
+		};
+		D612877E22157EE5002B9A31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D612877F22157EE5002B9A31 /* UIBezierPathExtension.swift */,
+				D612878022157EE5002B9A31 /* UIViewExtension.swift */,
+				D612878122157EE5002B9A31 /* StringExtension.swift */,
+			);
+			name = Extensions;
+			path = ConversationalForm/Extensions;
+			sourceTree = "<group>";
+		};
+		D612878222157EE5002B9A31 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */,
+				D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */,
+				D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */,
+				D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */,
+			);
+			name = Fonts;
+			path = ConversationalForm/Fonts;
+			sourceTree = "<group>";
+		};
+		D612878722157EE5002B9A31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D612878822157EE5002B9A31 /* SliderForm.swift */,
+				D612878922157EE5002B9A31 /* DatePickerForm.swift */,
+				D612878A22157EE5002B9A31 /* InputForm.swift */,
+				D612878B22157EE5002B9A31 /* Question.swift */,
+			);
+			name = Models;
+			path = ConversationalForm/Models;
+			sourceTree = "<group>";
+		};
+		D612878C22157EE5002B9A31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D612878D22157EE5002B9A31 /* Theme.swift */,
+			);
+			name = Helpers;
+			path = ConversationalForm/Helpers;
+			sourceTree = "<group>";
+		};
+		D612879022157EE5002B9A31 /* GenericViews */ = {
+			isa = PBXGroup;
+			children = (
+				D612879122157EE5002B9A31 /* SubheaderLabel */,
+				D612879322157EE5002B9A31 /* ChoiceButton */,
+				D612879522157EE5002B9A31 /* InputTextField */,
+				D612879722157EE5002B9A31 /* PickerView */,
+				D612879922157EE5002B9A31 /* HeaderView */,
+				D612879B22157EE5002B9A31 /* HeaderLabel */,
+				D612879D22157EE5002B9A31 /* SliderView */,
+				D612879F22157EE5002B9A31 /* RoundedButton */,
+				D61287A122157EE5002B9A31 /* ContainerView */,
+			);
+			name = GenericViews;
+			path = ConversationalForm/GenericViews;
+			sourceTree = "<group>";
+		};
+		D612879122157EE5002B9A31 /* SubheaderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D612879222157EE5002B9A31 /* SubheaderLabel.swift */,
+			);
+			path = SubheaderLabel;
+			sourceTree = "<group>";
+		};
+		D612879322157EE5002B9A31 /* ChoiceButton */ = {
+			isa = PBXGroup;
+			children = (
+				D612879422157EE5002B9A31 /* ChoiceButton.swift */,
+			);
+			path = ChoiceButton;
+			sourceTree = "<group>";
+		};
+		D612879522157EE5002B9A31 /* InputTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D612879622157EE5002B9A31 /* InputTextField.swift */,
+			);
+			path = InputTextField;
+			sourceTree = "<group>";
+		};
+		D612879722157EE5002B9A31 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D612879822157EE5002B9A31 /* PickerView.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		D612879922157EE5002B9A31 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				D612879A22157EE5002B9A31 /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		D612879B22157EE5002B9A31 /* HeaderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D612879C22157EE5002B9A31 /* HeaderLabel.swift */,
+			);
+			path = HeaderLabel;
+			sourceTree = "<group>";
+		};
+		D612879D22157EE5002B9A31 /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				D612879E22157EE5002B9A31 /* SliderView.swift */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		D612879F22157EE5002B9A31 /* RoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A022157EE5002B9A31 /* RoundedButton.swift */,
+			);
+			path = RoundedButton;
+			sourceTree = "<group>";
+		};
+		D61287A122157EE5002B9A31 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A222157EE5002B9A31 /* ContainerView.swift */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		D61287A322157EE5002B9A31 /* GenericForms */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A422157EE5002B9A31 /* FormView */,
+				D61287A622157EE5002B9A31 /* SliderForm */,
+				D61287A822157EE5002B9A31 /* DatePickerForm */,
+				D61287AA22157EE5002B9A31 /* InputForm */,
+				D61287AC22157EE5002B9A31 /* ChoiceForm */,
+			);
+			name = GenericForms;
+			path = ConversationalForm/GenericForms;
+			sourceTree = "<group>";
+		};
+		D61287A422157EE5002B9A31 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A522157EE5002B9A31 /* FormView.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		D61287A622157EE5002B9A31 /* SliderForm */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A722157EE5002B9A31 /* SliderFormView.swift */,
+			);
+			path = SliderForm;
+			sourceTree = "<group>";
+		};
+		D61287A822157EE5002B9A31 /* DatePickerForm */ = {
+			isa = PBXGroup;
+			children = (
+				D61287A922157EE5002B9A31 /* DatePickerFormView.swift */,
+			);
+			path = DatePickerForm;
+			sourceTree = "<group>";
+		};
+		D61287AA22157EE5002B9A31 /* InputForm */ = {
+			isa = PBXGroup;
+			children = (
+				D61287AB22157EE5002B9A31 /* InputFormView.swift */,
+			);
+			path = InputForm;
+			sourceTree = "<group>";
+		};
+		D61287AC22157EE5002B9A31 /* ChoiceForm */ = {
+			isa = PBXGroup;
+			children = (
+				D61287AD22157EE5002B9A31 /* ChoiceFormView.swift */,
+			);
+			path = ChoiceForm;
+			sourceTree = "<group>";
+		};
 		DC34745FEFA24EEA1CFC2017D658E12E /* ConversationalForm */ = {
 			isa = PBXGroup;
 			children = (
-				6BAA4C8E90AFF3FD4D2B969524E00115 /* ReplaceMe.swift */,
+				D61287AE22157EE5002B9A31 /* ConversationalFormView.swift */,
+				D612877C22157EE5002B9A31 /* Enums */,
+				D612877E22157EE5002B9A31 /* Extensions */,
+				D612878222157EE5002B9A31 /* Fonts */,
+				D61287A322157EE5002B9A31 /* GenericForms */,
+				D612879022157EE5002B9A31 /* GenericViews */,
+				D612878C22157EE5002B9A31 /* Helpers */,
+				D612878722157EE5002B9A31 /* Models */,
 				901AC6E349B5479C5B626DBF5591542E /* Pod */,
 				BB13EACFAB39FEDC52F1C4BFA724E325 /* Support Files */,
 			);
@@ -321,6 +577,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					5768072CCBE4E7DA62D46B064C706BB2 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -353,6 +614,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61287B622157EE6002B9A31 /* RobotoSlab-Regular.ttf in Resources */,
+				D61287B422157EE6002B9A31 /* RobotoSlab-Bold.ttf in Resources */,
+				D61287B322157EE6002B9A31 /* RobotoSlab-Thin.ttf in Resources */,
+				D61287B522157EE6002B9A31 /* RobotoSlab-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +643,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61287B022157EE6002B9A31 /* UIBezierPathExtension.swift in Sources */,
+				D61287BD22157EE6002B9A31 /* SubheaderLabel.swift in Sources */,
 				C64BB8766B9EA3459FE59894D9C22851 /* ConversationalForm-dummy.m in Sources */,
-				AB9ACCC5ED886C9E6FF9B5FDC7799C20 /* ReplaceMe.swift in Sources */,
+				D61287B722157EE6002B9A31 /* SliderForm.swift in Sources */,
+				D61287BA22157EE6002B9A31 /* Question.swift in Sources */,
+				D61287CB22157EE6002B9A31 /* ConversationalFormView.swift in Sources */,
+				D61287C222157EE6002B9A31 /* HeaderLabel.swift in Sources */,
+				D61287C822157EE6002B9A31 /* DatePickerFormView.swift in Sources */,
+				D61287B222157EE6002B9A31 /* StringExtension.swift in Sources */,
+				D61287B122157EE6002B9A31 /* UIViewExtension.swift in Sources */,
+				D61287B822157EE6002B9A31 /* DatePickerForm.swift in Sources */,
+				D61287BE22157EE6002B9A31 /* ChoiceButton.swift in Sources */,
+				D61287BF22157EE6002B9A31 /* InputTextField.swift in Sources */,
+				D61287C322157EE6002B9A31 /* SliderView.swift in Sources */,
+				D61287C622157EE6002B9A31 /* FormView.swift in Sources */,
+				D61287C122157EE6002B9A31 /* HeaderView.swift in Sources */,
+				D61287C522157EE6002B9A31 /* ContainerView.swift in Sources */,
+				D61287C422157EE6002B9A31 /* RoundedButton.swift in Sources */,
+				D61287CA22157EE6002B9A31 /* ChoiceFormView.swift in Sources */,
+				D61287BB22157EE6002B9A31 /* Theme.swift in Sources */,
+				D61287C722157EE6002B9A31 /* SliderFormView.swift in Sources */,
+				D61287B922157EE6002B9A31 /* InputForm.swift in Sources */,
+				D61287C022157EE6002B9A31 /* PickerView.swift in Sources */,
+				D61287AF22157EE5002B9A31 /* QuestionForm.swift in Sources */,
+				D61287C922157EE6002B9A31 /* InputFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95B6E1B5652B5D1A5135A4B3E4E33A55 /* ConversationalForm.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -576,6 +865,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95B6E1B5652B5D1A5135A4B3E4E33A55 /* ConversationalForm.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
