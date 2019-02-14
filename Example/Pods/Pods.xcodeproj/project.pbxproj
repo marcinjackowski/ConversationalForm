@@ -7,22 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D3B3D6DB9BC34B0D2817A2D667CF2AD /* Pods-ConversationalForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 337EB88AC6DA33E4AB6F31FD0D338E39 /* Pods-ConversationalForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35CB4DFE2084F4359D3C7E26115053E6 /* ConversationalForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3DE2126C802B8E98FC68AAF5820D43 /* ConversationalForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF0FE774D3898F4E827F9516BC9C58F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4212EB1A64B16B948494ACAF607038C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8BEC832A2686FD1F346EF00868400033 /* Pods-ConversationalForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AC488BB2A0CBA068141BB00E389EB5 /* Pods-ConversationalForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B48E0F53768A25416767C0804465DAB6 /* Pods-ConversationalForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E2FAED411B089567AB0C29B61FB2C /* Pods-ConversationalForm_Example-dummy.m */; };
-		BB97FB41998520638A4F528B40578FD9 /* Pods-ConversationalForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 889E89760FB484C40647BD4C67AE0E51 /* Pods-ConversationalForm_Tests-dummy.m */; };
 		C64BB8766B9EA3459FE59894D9C22851 /* ConversationalForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B847FB4D86D5E12E4313B55A3B663A /* ConversationalForm-dummy.m */; };
 		D61287AF22157EE5002B9A31 /* QuestionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612877D22157EE5002B9A31 /* QuestionForm.swift */; };
 		D61287B022157EE6002B9A31 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612877F22157EE5002B9A31 /* UIBezierPathExtension.swift */; };
 		D61287B122157EE6002B9A31 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878022157EE5002B9A31 /* UIViewExtension.swift */; };
 		D61287B222157EE6002B9A31 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878122157EE5002B9A31 /* StringExtension.swift */; };
-		D61287B322157EE6002B9A31 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */; };
-		D61287B422157EE6002B9A31 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */; };
-		D61287B522157EE6002B9A31 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */; };
-		D61287B622157EE6002B9A31 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */; };
 		D61287B722157EE6002B9A31 /* SliderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878822157EE5002B9A31 /* SliderForm.swift */; };
 		D61287B822157EE6002B9A31 /* DatePickerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878922157EE5002B9A31 /* DatePickerForm.swift */; };
 		D61287B922157EE6002B9A31 /* InputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612878A22157EE5002B9A31 /* InputForm.swift */; };
@@ -47,13 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A21C0828CCC41A7CAA56068866A13B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81455AC84C8C0E52BABD65B438F67B7F;
-			remoteInfo = "Pods-ConversationalForm_Example";
-		};
 		85EA5D81D54A8C9AC01029DF6F448374 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -89,7 +75,6 @@
 		92046C371B51F5B9296651A7FF320DE6 /* Pods-ConversationalForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConversationalForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B6E1B5652B5D1A5135A4B3E4E33A55 /* ConversationalForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConversationalForm.xcconfig; sourceTree = "<group>"; };
-		A7DF751D44522CFAFE92BD4BACE56FBE /* Pods_ConversationalForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConversationalForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFC1E595C564058D914DAF7E496CD26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AC488BB2A0CBA068141BB00E389EB5 /* Pods-ConversationalForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConversationalForm_Example-umbrella.h"; sourceTree = "<group>"; };
 		B3B847FB4D86D5E12E4313B55A3B663A /* ConversationalForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConversationalForm-dummy.m"; sourceTree = "<group>"; };
@@ -100,10 +85,6 @@
 		D612877F22157EE5002B9A31 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
 		D612878022157EE5002B9A31 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		D612878122157EE5002B9A31 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
-		D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
-		D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
-		D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		D612878822157EE5002B9A31 /* SliderForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderForm.swift; sourceTree = "<group>"; };
 		D612878922157EE5002B9A31 /* DatePickerForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerForm.swift; sourceTree = "<group>"; };
 		D612878A22157EE5002B9A31 /* InputForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputForm.swift; sourceTree = "<group>"; };
@@ -142,14 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF0FE774D3898F4E827F9516BC9C58F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F449A67A1E3418ADAFC7B33253603E63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4212EB1A64B16B948494ACAF607038C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +178,6 @@
 			children = (
 				358DAA6CBD0BCF192744E871F9B59C88 /* ConversationalForm.framework */,
 				C20781EABE7AAB977D9AABD4E6371461 /* Pods_ConversationalForm_Example.framework */,
-				A7DF751D44522CFAFE92BD4BACE56FBE /* Pods_ConversationalForm_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,18 +260,6 @@
 			);
 			name = Extensions;
 			path = ConversationalForm/Extensions;
-			sourceTree = "<group>";
-		};
-		D612878222157EE5002B9A31 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				D612878322157EE5002B9A31 /* RobotoSlab-Thin.ttf */,
-				D612878422157EE5002B9A31 /* RobotoSlab-Bold.ttf */,
-				D612878522157EE5002B9A31 /* RobotoSlab-Light.ttf */,
-				D612878622157EE5002B9A31 /* RobotoSlab-Regular.ttf */,
-			);
-			name = Fonts;
-			path = ConversationalForm/Fonts;
 			sourceTree = "<group>";
 		};
 		D612878722157EE5002B9A31 /* Models */ = {
@@ -471,7 +431,6 @@
 				D61287AE22157EE5002B9A31 /* ConversationalFormView.swift */,
 				D612877C22157EE5002B9A31 /* Enums */,
 				D612877E22157EE5002B9A31 /* Extensions */,
-				D612878222157EE5002B9A31 /* Fonts */,
 				D61287A322157EE5002B9A31 /* GenericForms */,
 				D612879022157EE5002B9A31 /* GenericViews */,
 				D612878C22157EE5002B9A31 /* Helpers */,
@@ -486,14 +445,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BCC637F469B47F89BB9C33230A672AD1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D3B3D6DB9BC34B0D2817A2D667CF2AD /* Pods-ConversationalForm_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C686CCE4683A9E961A8BDEB4F23D1EAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,25 +464,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		432355102B758679C0343CC979C176EB /* Pods-ConversationalForm_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8F833BEED0E9CCDC1F1C3E77DC5F79D /* Build configuration list for PBXNativeTarget "Pods-ConversationalForm_Tests" */;
-			buildPhases = (
-				BCC637F469B47F89BB9C33230A672AD1 /* Headers */,
-				5BC910D9D6102A59A4434F9F0E8D42C4 /* Sources */,
-				F449A67A1E3418ADAFC7B33253603E63 /* Frameworks */,
-				04EC474C387ABA5E43A609D936D42D92 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B6B8A839D799BD8AF37C3A11DD7E4A0 /* PBXTargetDependency */,
-			);
-			name = "Pods-ConversationalForm_Tests";
-			productName = "Pods-ConversationalForm_Tests";
-			productReference = A7DF751D44522CFAFE92BD4BACE56FBE /* Pods_ConversationalForm_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5768072CCBE4E7DA62D46B064C706BB2 /* ConversationalForm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B31DF8CFEB5881A87451E7FA3C19A77 /* Build configuration list for PBXNativeTarget "ConversationalForm" */;
@@ -597,27 +529,15 @@
 			targets = (
 				5768072CCBE4E7DA62D46B064C706BB2 /* ConversationalForm */,
 				81455AC84C8C0E52BABD65B438F67B7F /* Pods-ConversationalForm_Example */,
-				432355102B758679C0343CC979C176EB /* Pods-ConversationalForm_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04EC474C387ABA5E43A609D936D42D92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5D4308FBA2BEF53CB19DAA122399CF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61287B622157EE6002B9A31 /* RobotoSlab-Regular.ttf in Resources */,
-				D61287B422157EE6002B9A31 /* RobotoSlab-Bold.ttf in Resources */,
-				D61287B322157EE6002B9A31 /* RobotoSlab-Thin.ttf in Resources */,
-				D61287B522157EE6002B9A31 /* RobotoSlab-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,14 +551,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5BC910D9D6102A59A4434F9F0E8D42C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB97FB41998520638A4F528B40578FD9 /* Pods-ConversationalForm_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC9677207C8296B74116A561D8AA9147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -682,12 +594,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B6B8A839D799BD8AF37C3A11DD7E4A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ConversationalForm_Example";
-			target = 81455AC84C8C0E52BABD65B438F67B7F /* Pods-ConversationalForm_Example */;
-			targetProxy = 4A21C0828CCC41A7CAA56068866A13B7 /* PBXContainerItemProxy */;
-		};
 		1C4C9BE9CE22C49901F8FE6FD1875169 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ConversationalForm;
@@ -747,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -773,7 +679,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ConversationalForm_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConversationalForm_Example/Pods-ConversationalForm_Example.modulemap";
@@ -809,7 +715,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ConversationalForm/ConversationalForm-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConversationalForm/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ConversationalForm/ConversationalForm.modulemap";
 				PRODUCT_MODULE_NAME = ConversationalForm;
@@ -842,7 +748,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ConversationalForm_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConversationalForm_Example/Pods-ConversationalForm_Example.modulemap";
@@ -878,7 +784,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ConversationalForm/ConversationalForm-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConversationalForm/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ConversationalForm/ConversationalForm.modulemap";
 				PRODUCT_MODULE_NAME = ConversationalForm;
@@ -947,7 +853,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -957,73 +863,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		C8D1BA216F71B94B527872851EEFAB9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58D3EFC27E97E71DE69B222CFD844C96 /* Pods-ConversationalForm_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ConversationalForm_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ConversationalForm_Tests/Pods-ConversationalForm_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E568669904E3077454A709C55AF5A49E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68BEFCE1ACEDB892815FDA24AFBF6BDD /* Pods-ConversationalForm_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ConversationalForm_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ConversationalForm_Tests/Pods-ConversationalForm_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1051,15 +890,6 @@
 			buildConfigurations = (
 				8A92672938DE249BC05C33E14A0EE75B /* Debug */,
 				6ED42095F66194138F7C1B55332D4203 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8F833BEED0E9CCDC1F1C3E77DC5F79D /* Build configuration list for PBXNativeTarget "Pods-ConversationalForm_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8D1BA216F71B94B527872851EEFAB9B /* Debug */,
-				E568669904E3077454A709C55AF5A49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

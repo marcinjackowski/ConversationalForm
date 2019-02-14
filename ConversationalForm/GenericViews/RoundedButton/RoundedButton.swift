@@ -8,17 +8,17 @@
 
 import UIKit
 
-enum RoundedButtonState {
+public enum RoundedButtonState {
     case active
     case inactive
 }
 
-final class RoundedButtonStyle {
+final public class RoundedButtonStyle {
     let activeColor: UIColor
     let inactiveColor: UIColor
     private var state: RoundedButtonState = .inactive
     
-    init(activeColor: UIColor = #colorLiteral(red: 0.462745098, green: 0.462745098, blue: 0.462745098, alpha: 1), inactiveColor: UIColor = #colorLiteral(red: 0, green: 0.4156862745, blue: 0.4392156863, alpha: 1)) {
+    public init(activeColor: UIColor = #colorLiteral(red: 0.462745098, green: 0.462745098, blue: 0.462745098, alpha: 1), inactiveColor: UIColor = #colorLiteral(red: 0, green: 0.4156862745, blue: 0.4392156863, alpha: 1)) {
         self.activeColor = activeColor
         self.inactiveColor = inactiveColor
     }

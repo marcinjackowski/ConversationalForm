@@ -8,13 +8,13 @@
 
 import UIKit
 
-final class Question {
+final public class Question {
     let headerTitle: String
     let subheaderTitle: String
     let formType: FormType
     var answer: String?
     
-    init(headerTitle: String, subheaderTitle: String, formType: FormType) {
+    public init(headerTitle: String, subheaderTitle: String, formType: FormType) {
         self.headerTitle = headerTitle
         self.subheaderTitle = subheaderTitle
         self.formType = formType

@@ -20,14 +20,14 @@ extension ConversationalFormViewDelegate {
     func userDidResponseForAllQuestions() {}
 }
 
-final class ConversationalFormView: UIView {
+final public class ConversationalFormView: UIView {
     
     private enum Constants {
         static let padding: CGFloat = 24.0
         static let animationDuration: Double = 0.3
     }
     
-    var image: UIImage? {
+    public var image: UIImage? {
         didSet {
             setupImageView(image: image)
         }
@@ -43,7 +43,7 @@ final class ConversationalFormView: UIView {
     private var imageViewBottomToTopContainerConstraint: NSLayoutConstraint?
     private var containerViewBottomToSuperviewConstraint: NSLayoutConstraint?
 
-    init(questions: [Question], theme: Theme = Theme()) {
+    public init(questions: [Question], theme: Theme = Theme()) {
         self.questions = questions
         self.theme = theme
         super.init(frame: .zero)
@@ -56,12 +56,12 @@ final class ConversationalFormView: UIView {
     }
     
     private func setupKeyobard() {
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
     
     @objc private func keyboardWillShow(_ notification: Notification) {
-        guard let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else { return }
+        guard let keyboardFrame: NSValue = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue else { return }
         let keyboardRectangle = keyboardFrame.cgRectValue
         let keyboardHeight = keyboardRectangle.height
         let container = containers.filter { $0.position == .bottom }.first

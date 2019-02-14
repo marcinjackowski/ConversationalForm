@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27F746C6D41E21C94EE7B1F4 /* Pods_ConversationalForm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2925FED4A81A9DB39536EA58 /* Pods_ConversationalForm_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		D61287D322159E8F002B9A31 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61287CF22159E8F002B9A31 /* RobotoSlab-Thin.ttf */; };
+		D61287D422159E8F002B9A31 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61287D022159E8F002B9A31 /* RobotoSlab-Bold.ttf */; };
+		D61287D522159E8F002B9A31 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61287D122159E8F002B9A31 /* RobotoSlab-Light.ttf */; };
+		D61287D622159E8F002B9A31 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D61287D222159E8F002B9A31 /* RobotoSlab-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2925FED4A81A9DB39536EA58 /* Pods_ConversationalForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConversationalForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA965423A5253B76AFFB6AA /* ConversationalForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConversationalForm.podspec; path = ../ConversationalForm.podspec; sourceTree = "<group>"; };
 		4CDC4C1D88E15989A82251DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D1DB330449BD32AF3083FDF /* Pods-ConversationalForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversationalForm_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConversationalForm_Tests/Pods-ConversationalForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -31,6 +33,10 @@
 		9CF7BAE9608CE7D8F1409D7F /* Pods-ConversationalForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversationalForm_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConversationalForm_Tests/Pods-ConversationalForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC3CC83C4E9968338E11D06A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ACE22D46805C93D29D7D03DB /* Pods-ConversationalForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversationalForm_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConversationalForm_Example/Pods-ConversationalForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D61287CF22159E8F002B9A31 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		D61287D022159E8F002B9A31 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		D61287D122159E8F002B9A31 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		D61287D222159E8F002B9A31 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,21 +44,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F746C6D41E21C94EE7B1F4 /* Pods_ConversationalForm_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B1EECE83B04D84FB7050C70 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2925FED4A81A9DB39536EA58 /* Pods_ConversationalForm_Example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5F06619976BA3E7BDE54D8B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +68,6 @@
 				607FACD21AFB9204008FA782 /* Example for ConversationalForm */,
 				607FACD11AFB9204008FA782 /* Products */,
 				5F06619976BA3E7BDE54D8B9 /* Pods */,
-				0B1EECE83B04D84FB7050C70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +88,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				D61287CE22159E8F002B9A31 /* Fonts */,
 			);
 			name = "Example for ConversationalForm";
 			path = ConversationalForm;
@@ -113,6 +110,17 @@
 				AC3CC83C4E9968338E11D06A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D61287CE22159E8F002B9A31 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D61287CF22159E8F002B9A31 /* RobotoSlab-Thin.ttf */,
+				D61287D022159E8F002B9A31 /* RobotoSlab-Bold.ttf */,
+				D61287D122159E8F002B9A31 /* RobotoSlab-Light.ttf */,
+				D61287D222159E8F002B9A31 /* RobotoSlab-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +184,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61287D622159E8F002B9A31 /* RobotoSlab-Regular.ttf in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				D61287D422159E8F002B9A31 /* RobotoSlab-Bold.ttf in Resources */,
+				D61287D522159E8F002B9A31 /* RobotoSlab-Light.ttf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				D61287D322159E8F002B9A31 /* RobotoSlab-Thin.ttf in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -358,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

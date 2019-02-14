@@ -6,7 +6,12 @@
 //  Copyright © 2018 Marcin Jackowski. All rights reserved.
 //
 
-struct InputForm {
+public struct InputForm {
     let placeholder: String?
     let buttonTitle: String
+    
+    public init(placeholder: String?, buttonTitle: String) {
+        self.placeholder = placeholder
+        self.buttonTitle = buttonTitle
+    }
 }

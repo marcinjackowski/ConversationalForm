@@ -31,7 +31,7 @@ final class SubheaderLabel: UILabel {
     }
     
     private func setupTitleLabel(text: String?) {
-        font = UIFont(name: "RobotoSlab-Light", size: 18.0)
+        font = UIFont(name: "\(theme.fontFamilyName)-Light", size: 18.0)
         textColor = theme.questionFontColor
         numberOfLines = 0
         

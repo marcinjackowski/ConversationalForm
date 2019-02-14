@@ -32,7 +32,7 @@ final class HeaderLabel: UILabel {
     }
     
     private func setupTitleLabel(text: String?) {
-        font = UIFont(name: "RobotoSlab-Light", size: 29.0)
+        font = UIFont(name: "\(theme.fontFamilyName)-Light", size: 29.0)
         textColor = theme.questionFontColor
         numberOfLines = 0
         

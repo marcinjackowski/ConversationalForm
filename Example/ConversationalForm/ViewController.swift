@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import ConversationalForm
 
 class ViewController: UIViewController {
+    
+    private var conversationalFormView: ConversationalFormView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupLayout()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func setupLayout() {
+        let questions = fetchQuestions()
+        
+        conversationalFormView = ConversationalFormView(questions: questions)
+        view.addSubview(conversationalFormView)
+        conversationalFormView.translatesAutoresizingMaskIntoConstraints = false
+        conversationalFormView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        conversationalFormView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        conversationalFormView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        conversationalFormView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        conversationalFormView.image = UIImage(named: "logo")
     }
-
+    
+    private func fetchQuestions() -> [Question] {
+        let q1 = Question(headerTitle: "Hey there,", subheaderTitle: "I'm Alexa and I can help you arrange your next holidays.\n Are you ready?", formType: FormType.choice(titles: ["Yeah! Let's do it!", "No thanks..."]))
+        return [q1]
+    }
 }
 

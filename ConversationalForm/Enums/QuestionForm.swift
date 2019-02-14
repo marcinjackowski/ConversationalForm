@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum FormType {
+public enum FormType {
     case choice(titles: [String])
     case input(InputForm)
     case datePicker(DatePickerForm)

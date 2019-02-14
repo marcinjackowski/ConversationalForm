@@ -8,8 +8,14 @@
 
 import UIKit
 
-struct DatePickerForm {
+public struct DatePickerForm {
     let leftTitle: String?
     let mode: UIDatePicker.Mode
     let buttonTitle: String
+    
+    public init(leftTitle: String?, mode: UIDatePicker.Mode, buttonTitle: String) {
+        self.leftTitle = leftTitle
+        self.mode = mode
+        self.buttonTitle = buttonTitle
+    }
 }
