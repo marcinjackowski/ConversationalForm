@@ -1,0 +1,22 @@
+{
+  "name": "ConversationalForm",
+  "version": "0.1.0",
+  "summary": "A short description of ConversationalForm.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/marcinjackowski/ConversationalForm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "marcinjackowski": "mtc.jackowski@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/marcinjackowski/ConversationalForm.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ConversationalForm/Classes/**/*"
+}

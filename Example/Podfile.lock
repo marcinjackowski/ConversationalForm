@@ -1,0 +1,16 @@
+PODS:
+  - ConversationalForm (0.1.0)
+
+DEPENDENCIES:
+  - ConversationalForm (from `../`)
+
+EXTERNAL SOURCES:
+  ConversationalForm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConversationalForm: c23a9d78dc9ecee7529b6cdf0ac9d5bccdd46827
+
+PODFILE CHECKSUM: 30aba65fbb0224b05ba724faf91515692a80000f
+
+COCOAPODS: 1.5.3

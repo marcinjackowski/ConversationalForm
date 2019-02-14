@@ -1,0 +1,6 @@
+framework module ConversationalForm {
+  umbrella header "ConversationalForm-umbrella.h"
+
+  export *
+  module * { export * }
+}
